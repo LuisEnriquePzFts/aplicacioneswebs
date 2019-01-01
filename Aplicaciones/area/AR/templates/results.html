@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>Estos son los datos:</p>
+<table>
+<tr><td>Radio:</td><td>{{ the_radio }}</td></tr>
+
+</table>
+
+<p>Cuando se ingresa el Radio, Se calcula con la formula y se obtiene este Resultado:</p>
+<h3>{{ the_results }}</h3>
+
+{% endblock %}

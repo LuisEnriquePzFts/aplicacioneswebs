@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>Estos son los datos:</p>
+<table>
+<tr><td>masa:</td><td>{{ the_masa }}</td></tr>
+<tr><td>velocidad:</td><td>{{ the_velocidad }}</td></tr>
+
+
+</table>
+
+<p>La energia del cuerpo en reposo es:</p>
+<h3>{{ the_results }}</h3>
+
+{% endblock %}

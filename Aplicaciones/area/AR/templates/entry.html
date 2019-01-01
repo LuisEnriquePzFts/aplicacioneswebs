@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form action='/area' method= 'POST' >
+<h3>Bienvenido a la Calculadora del Área de la Esfera !!</h3>
+<table>
+<p>Ingrese el radio para calcular su área:</p>
+<tr><td>radio:</td><td><input name='radio' type=''  width='10'></td></tr>
+<tr><td>formula:</td><td><input name='formula' type='TEXT' value='4 π r 2'></td></tr>
+</table>
+<p>Preciona el boton para calculrar el área:</p>
+<p><input value='calcular!' type='SUBMIT'></p>
+</form>
+
+{% endblock %}

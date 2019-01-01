@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form action='/area' method= 'POST' >
+<table>
+<p>Ingresa los datos para calcular la Energia:</p>
+<tr><td>masa:</td><td><input name='masa' type=''  width='10'></td></tr>
+<tr><td>velociadad:</td><td><input name='velocidad' type=''  width='10'></td></tr>
+
+
+<tr><td>formula:</td><td><input name='formula' type='TEXT' value='E=mc2'></td></tr>
+</table>
+<p>Preciona el boton para calculrar el área:</p>
+<p><input value='calcular!' type='SUBMIT'></p>
+</form>
+
+{% endblock %}
